@@ -19,6 +19,7 @@ You can build anything you want, provided that it meets the following requiremen
 - Construct a controller that has at least 1 RESTful resource
 - It uses an API (what does this mean?! explore!)
 - It is styled
+- It needs at least 5 rspec/jasmine tests
 - It utilizes JavaScript
 - It is deployed to Heroku
 
