@@ -1,0 +1,22 @@
+<div class="container">
+
+  <section class="sidebar">
+    <h1>Send Random Happy Text</h1>
+
+    <form id="sms_sender" action="/sms" method="POST">
+      <label for="sender_name" placeholder="Sender Name">Sender Name:</label>
+      <input type="text" name="sender_name">
+
+      <label for="recipient_number" placeholder="Recipient Number">Recipient Number:</label>
+      <input type="text" name="recipient_number">
+
+      <input type="submit" value="Send!">
+    </form>
+  </section>
+
+  <main class="confirmation_message">
+    <span>
+
+    </span>
+  </main>
+</div>
